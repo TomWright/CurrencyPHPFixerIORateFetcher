@@ -1,0 +1,19 @@
+{
+    "name": "tomwright/currency-php-fixerio-rate-fetcher",
+    "description": "An extension to fetch exchange rates from the FixerIO API.",
+    "authors": [
+        {
+            "name": "Tom Wright",
+            "email": "contact@tomwright.me"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "*",
+        "tomwright/currency-php": "^0.0.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "TomWright\\CurrencyPHP\\FixerIORateFetcher\\": "src/"
+        }
+    }
+}
